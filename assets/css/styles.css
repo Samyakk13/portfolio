@@ -1,0 +1,37 @@
+@media (min-width: 992px) {
+  img {
+  }
+}
+
+@media (min-width: 300px) {
+  #sam-img {
+    height: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  #sam-img {
+    height: 543px;
+  }
+}
+
+.social {
+  margin: 0px 20px;
+}
+
+.social:hover {
+  transform: scale;
+  color: white;
+}
+
+.navbar {
+}
+
+#navcol-1 {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
